@@ -1,0 +1,54 @@
+
+header{
+     width: 100%;
+     padding: 30px;
+     background-color:rgba(255, 127, 80, 0.206);
+     .navbar{
+          @extend %center-div;
+          margin-left: 30px;
+          .nav__logo{
+               font-size: $navfont;
+               font-family:$loro  ;
+               a{
+                    color: $wordcolor;
+                    &:hover{
+                         color: rgba(255, 127, 80, 0.575);
+                    }
+               }
+          }
+
+
+          .nav__center{
+               a{
+                    color: $wordcolor;
+               }
+               font-size: $navfont;
+               font-family: $loro ;
+          }
+     }
+     .nav__right{
+          ul{
+               display: flex;
+               align-items: center;
+               gap: 30px;
+               a{
+                    color: $wordcolor;
+                    &:hover{
+                         color: rgba(0, 0, 0, 0.823);
+                    }
+               }
+               .icon{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px; 
+               }
+               .fa-user-large{
+                    font-size: 20px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+
+               }
+          }
+
+         }    }

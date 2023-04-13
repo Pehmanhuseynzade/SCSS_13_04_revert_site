@@ -1,0 +1,15 @@
+%center-div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+%revert-div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+%space{
+     width: 100%;
+     height: 100px;
+     background-color: white;
+}

@@ -1,0 +1,117 @@
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space, main .forbtn, main #hero p, main #hero .revert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(255, 127, 80, 0.206);
+}
+header .navbar {
+  margin-left: 30px;
+}
+header .navbar .nav__logo {
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+header .navbar .nav__logo a {
+  color: black;
+}
+header .navbar .nav__logo a:hover {
+  color: rgba(255, 127, 80, 0.575);
+}
+header .navbar .nav__center {
+  font-size: 30px;
+  font-family: "Lora", serif;
+}
+header .navbar .nav__center a {
+  color: black;
+}
+header .nav__right ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .nav__right ul a {
+  color: black;
+}
+header .nav__right ul a:hover {
+  color: rgba(0, 0, 0, 0.823);
+}
+header .nav__right ul .icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .nav__right ul .fa-user-large {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+main {
+  width: 100%;
+  min-height: 700px;
+}
+main #hero {
+  width: 100%;
+  height: 90vh;
+  background-image: url("http://images.soapqueen.com/ShoutOutSoaps/Lux3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.7);
+}
+main #hero .revert {
+  padding-top: 60px;
+}
+main #hero .revert h1 {
+  font-size: 230px;
+  color: #fffdc3;
+}
+main #hero p {
+  font-size: 30px;
+  color: white;
+}
+main .forbtn {
+  margin-top: 40px;
+}
+main .forbtn .button {
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 25px;
+  color: black;
+  background-color: white;
+}
+main .forbtn .button:hover {
+  background-color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=main.css.map */
